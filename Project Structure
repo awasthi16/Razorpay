@@ -12,3 +12,20 @@ razorpay-fullstack/
     └── src/
         ├── main.jsx
         └── App.jsx
+
+
+
+
+
+
+
+--------------------------
+ Testing Tips
+
+Create Test Mode keys in Razorpay Dashboard.
+
+Use test card e.g. 4111 1111 1111 1111, any future expiry, any CVV, any OTP.
+
+Verify your server logs for /verify-payment and webhooks.
+
+Keep a DB table like payments with fields: order_id, payment_id, amount, currency, status, signature_valid, metadata.
