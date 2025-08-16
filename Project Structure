@@ -1,0 +1,14 @@
+razorpay-fullstack/
+├── server/                  # Node/Express backend
+│   ├── .env                 # Backend secrets
+│   ├── package.json
+│   ├── server.js
+│   └── payments.routes.js
+└── client/                  # React (Vite) frontend
+    ├── .env                 # Frontend public vars
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── main.jsx
+        └── App.jsx
